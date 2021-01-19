@@ -4,6 +4,10 @@ Minimal repo to reproduce crash when building single file with Diagnostics.NETCo
 
 The Diagnostics.NETCore.Client package cant be installed when publishing to SingleFile
 
+## Issue Tracker
+
+https://github.com/dotnet/diagnostics/issues/1919
+
 ## Reproduce
 
 Just build the project with `dotnet publish -r ubuntu-x64 /p:PublishSingleFile=true Diagnostics.NETCore.Client.Crash.csproj`
